@@ -1,19 +1,18 @@
-import java.util.Scanner;
 public class test{
   public static void main(String[] args){
-     Scanner input = new Scanner(System.in);
-    System.out.println("Check string is argrams or not......");
-    System.out.println("Enter the first string...");
-	  String first = input.nextLine();
-
-    System.out.println("Enter the second string...");
-	  String sec = input.nextLine();
-
-    System.out.println(anagram(first));
+    int x = 121;
+    if(x == pali(x)){
+      System.out.println("yes");
+    }
   }
-  public static boolean anagram(String first,String sec){
-    char 
-
-    
+  public static int pali(int x){
+    int reverse = 0;
+    while(x>0){
+      int digit = x % 10;
+      reverse = reverse * 10 + digit;
+      x /= 10;
+    }
+ 
+    return reverse;
   }
 }

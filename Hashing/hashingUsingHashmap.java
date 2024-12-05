@@ -1,5 +1,5 @@
 import java.util.HashMap;
-class test{
+class hashingUsingHashmap{
     public static void main(String[] args){
         int[] myarr = {3,7,9,4,6,3};
 

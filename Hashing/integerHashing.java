@@ -14,9 +14,7 @@ class basic{
 
 
         // creating integer hashArray...
-        int[] hashArr = new int[100];
-
-
+        int[] hashArr = new int[100]; 
         for(int i=0;i< myarr.length;i++){
             hashArr[myarr[i]]++;
         }

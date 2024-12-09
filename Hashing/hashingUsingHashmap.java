@@ -6,10 +6,10 @@ class hashingUsingHashmap{
         HashMap<Integer , Integer> hashing = new HashMap<>();
 
         for(int i=0;i<myarr.length;i++){
-            if(hashing.containsKey(myarr[i])){             // yee check kara hai..agar phle sa present hoga toh add krdo..
+            if(hashing.containsKey(myarr[i])){             // yee check kara hai..agar phle sa key present hoga toh add krdo.
                 hashing.put(myarr[i],hashing.get(myarr[i])+1);
             }else{
-                hashing.put(myarr[i],1);
+                hashing.put(myarr[i],1);   // agar phle sa present nhi hoga toh...key or value yee hogi..
             }
         }
 

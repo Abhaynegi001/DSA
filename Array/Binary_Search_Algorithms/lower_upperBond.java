@@ -1,4 +1,4 @@
-class test{
+class lower_upperBond{
     public static void main(String[] args){
         int[] arr = {2,3,6,7,8,8,11,11,12};
         int n = arr.length;
@@ -7,8 +7,6 @@ class test{
         // lowerBond(arr , n , target);
 
         upperBond(arr , n , target);
-
-
     }
 
     public static void lowerBond(int[] arr, int n , int target){

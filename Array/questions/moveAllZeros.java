@@ -29,11 +29,9 @@ class moveAllZeros{
                 int c = arr[i];
                 arr[i] = arr[j];
                 arr[j] = c;
-
                 j++;
             }
         }
-
     }
 
 
